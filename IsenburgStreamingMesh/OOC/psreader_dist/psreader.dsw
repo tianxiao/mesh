@@ -1,0 +1,197 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "PSlib"=.\PSlib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SMlib"=.\SMlib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ps2sm"=.\examples\ps2sm.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name PSlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SMlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ps_angles"=.\examples\ps_angles.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name PSlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SMlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ps_area"=.\examples\ps_area.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name PSlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SMlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ps_load"=.\examples\ps_load.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name PSlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SMlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ps_normals"=.\examples\ps_normals.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name PSlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SMlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sm2sm"=.\examples\sm2sm.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SMlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sm_diagram"=.\examples\sm_diagram.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name PSlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SMlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sm_info"=.\examples\sm_info.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SMlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sm_viewer"=.\examples\sm_viewer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name PSlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SMlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

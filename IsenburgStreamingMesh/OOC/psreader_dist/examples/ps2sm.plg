@@ -1,0 +1,191 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PSlib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11C6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "inc" /I "stl" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/PSlib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\psreader_dist\src\codec_new_dec.cpp"
+"C:\psreader_dist\src\crazyvector_for_pointers.cpp"
+"C:\psreader_dist\src\ply.c"
+"C:\psreader_dist\src\psconverter.cpp"
+"C:\psreader_dist\src\psreader_lowspan.cpp"
+"C:\psreader_dist\src\psreader_oocc.cpp"
+"C:\psreader_dist\src\rangedecoder.cpp"
+"C:\psreader_dist\src\rangemodel.cpp"
+"C:\psreader_dist\src\vector.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11C6.tmp" 
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11C7.tmp" with contents
+[
+/nologo /out:"Debug\PSlib.lib" 
+.\Debug\codec_new_dec.obj
+.\Debug\crazyvector_for_pointers.obj
+.\Debug\ply.obj
+.\Debug\psconverter.obj
+.\Debug\psreader_lowspan.obj
+.\Debug\psreader_oocc.obj
+.\Debug\rangedecoder.obj
+.\Debug\rangemodel.obj
+.\Debug\vector.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11C7.tmp"
+<h3>Output Window</h3>
+Compiling...
+codec_new_dec.cpp
+crazyvector_for_pointers.cpp
+ply.c
+psconverter.cpp
+psreader_lowspan.cpp
+psreader_oocc.cpp
+rangedecoder.cpp
+rangemodel.cpp
+vector.cpp
+Creating library...
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11C8.bat" with contents
+[
+@echo off
+copy Debug\PSlib.lib lib\PSlib.lib
+]
+Creating command line "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11C8.bat"
+
+        1 file(s) copied.
+<h3>
+--------------------Configuration: SMlib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11C9.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "inc" /I "stl" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/SMlib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\psreader_dist\src\dynamicqueue.cpp"
+"C:\psreader_dist\src\dynamicvector.cpp"
+"C:\psreader_dist\src\floatcompressor.cpp"
+"C:\psreader_dist\src\integercompressor.cpp"
+"C:\psreader_dist\src\integercompressor_new.cpp"
+"C:\psreader_dist\src\ply.c"
+"C:\psreader_dist\src\rangedecoder.cpp"
+"C:\psreader_dist\src\rangeencoder.cpp"
+"C:\psreader_dist\src\rangemodel.cpp"
+"C:\psreader_dist\src\smconverter.cpp"
+"C:\psreader_dist\src\smreader_ply.cpp"
+"C:\psreader_dist\src\smreader_sma.cpp"
+"C:\psreader_dist\src\smreader_smb.cpp"
+"C:\psreader_dist\src\smreader_smd.cpp"
+"C:\psreader_dist\src\smreadpostascompactpre.cpp"
+"C:\psreader_dist\src\smreadpreascompactpre.cpp"
+"C:\psreader_dist\src\smwritebuffered.cpp"
+"C:\psreader_dist\src\smwriter_sma.cpp"
+"C:\psreader_dist\src\smwriter_smb.cpp"
+"C:\psreader_dist\src\smwriter_smd.cpp"
+"C:\psreader_dist\src\smreader_smc_old.cpp"
+"C:\psreader_dist\src\smwriter_smc_old.cpp"
+"C:\psreader_dist\src\smreader_smc.cpp"
+"C:\psreader_dist\src\smwriter_smc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11C9.tmp" 
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11CA.tmp" with contents
+[
+/nologo /out:"Debug\SMlib.lib" 
+.\Debug\dynamicqueue.obj
+.\Debug\dynamicvector.obj
+.\Debug\floatcompressor.obj
+.\Debug\integercompressor.obj
+.\Debug\integercompressor_new.obj
+.\Debug\ply.obj
+.\Debug\rangedecoder.obj
+.\Debug\rangeencoder.obj
+.\Debug\rangemodel.obj
+.\Debug\smconverter.obj
+.\Debug\smreader_ply.obj
+.\Debug\smreader_sma.obj
+.\Debug\smreader_smb.obj
+.\Debug\smreader_smd.obj
+.\Debug\smreadpostascompactpre.obj
+.\Debug\smreadpreascompactpre.obj
+.\Debug\smwritebuffered.obj
+.\Debug\smwriter_sma.obj
+.\Debug\smwriter_smb.obj
+.\Debug\smwriter_smd.obj
+.\Debug\smreader_smc_old.obj
+.\Debug\smwriter_smc_old.obj
+.\Debug\smreader_smc.obj
+.\Debug\smwriter_smc.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11CA.tmp"
+<h3>Output Window</h3>
+Compiling...
+dynamicqueue.cpp
+dynamicvector.cpp
+floatcompressor.cpp
+integercompressor.cpp
+integercompressor_new.cpp
+ply.c
+rangedecoder.cpp
+rangeencoder.cpp
+rangemodel.cpp
+smconverter.cpp
+smreader_ply.cpp
+smreader_sma.cpp
+smreader_smb.cpp
+smreader_smd.cpp
+smreadpostascompactpre.cpp
+smreadpreascompactpre.cpp
+smwritebuffered.cpp
+smwriter_sma.cpp
+smwriter_smb.cpp
+smwriter_smd.cpp
+smreader_smc_old.cpp
+smwriter_smc_old.cpp
+smreader_smc.cpp
+smwriter_smc.cpp
+Creating library...
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11CB.bat" with contents
+[
+@echo off
+copy Debug\SMlib.lib lib\SMlib.lib
+]
+Creating command line "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11CB.bat"
+
+        1 file(s) copied.
+<h3>
+--------------------Configuration: ps2sm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11CC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\inc" /D "_DEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D KEY_TYPE=EXTu32 /Fp"Debug/ps2sm.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\psreader_dist\examples\src\ps2sm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11CC.tmp" 
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11CD.tmp" with contents
+[
+../lib/SMlib.lib ../lib/PSlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ps2sm.pdb" /debug /machine:I386 /out:"Debug/ps2sm.exe" /pdbtype:sept 
+.\Debug\ps2sm.obj
+\psreader_dist\Debug\PSlib.lib
+\psreader_dist\Debug\SMlib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11CD.tmp"
+<h3>Output Window</h3>
+Compiling...
+ps2sm.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11CF.bat" with contents
+[
+@echo off
+copy Debug\ps2sm.exe ps2sm.exe
+]
+Creating command line "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP11CF.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+ps2sm.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: precisioncheck - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSPDDF.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../inc" /I "inc" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/precisioncheck.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\papers\oocclpm\micode\examples\src\precisioncheck.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSPDDF.tmp" 
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSPDE0.tmp" with contents
+[
+lib/micode.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/precisioncheck.pdb" /machine:I386 /out:"Release/precisioncheck.exe" 
+.\Release\precisioncheck.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSPDE0.tmp"
+<h3>Output Window</h3>
+Compiling...
+precisioncheck.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSPDE2.bat" with contents
+[
+@echo off
+copy Release\precisioncheck.exe examples\precisioncheck.exe
+]
+Creating command line "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSPDE2.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+precisioncheck.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

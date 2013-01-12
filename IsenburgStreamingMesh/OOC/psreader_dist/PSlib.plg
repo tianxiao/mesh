@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PSlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP16B6.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "stl" /I "inc" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/PSlib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\psreader_dist\src\codec_new_dec.cpp"
+"C:\psreader_dist\src\crazyvector_for_pointers.cpp"
+"C:\psreader_dist\src\ply.c"
+"C:\psreader_dist\src\psconverter.cpp"
+"C:\psreader_dist\src\psreader_lowspan.cpp"
+"C:\psreader_dist\src\psreader_oocc.cpp"
+"C:\psreader_dist\src\rangedecoder.cpp"
+"C:\psreader_dist\src\rangemodel.cpp"
+"C:\psreader_dist\src\vector.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP16B6.tmp" 
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP16B7.tmp" with contents
+[
+/nologo /out:"Release\PSlib.lib" 
+.\Release\codec_new_dec.obj
+.\Release\crazyvector_for_pointers.obj
+.\Release\ply.obj
+.\Release\psconverter.obj
+.\Release\psreader_lowspan.obj
+.\Release\psreader_oocc.obj
+.\Release\rangedecoder.obj
+.\Release\rangemodel.obj
+.\Release\vector.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP16B7.tmp"
+<h3>Output Window</h3>
+Compiling...
+codec_new_dec.cpp
+crazyvector_for_pointers.cpp
+ply.c
+psconverter.cpp
+psreader_lowspan.cpp
+psreader_oocc.cpp
+rangedecoder.cpp
+rangemodel.cpp
+vector.cpp
+Creating library...
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP16B8.bat" with contents
+[
+@echo off
+copy Release\PSlib.lib lib\PSlib.lib
+]
+Creating command line "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP16B8.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+PSlib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

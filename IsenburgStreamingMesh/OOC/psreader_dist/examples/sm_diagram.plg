@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: sm_diagram - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP42D.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\inc" /I "..\stl" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/sm_diagram.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\psreader_dist\examples\src\sm_diagram.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP42D.tmp" 
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP42E.tmp" with contents
+[
+../lib/SMlib.lib ../lib/PSlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/sm_diagram.pdb" /machine:I386 /out:"Release/sm_diagram.exe" 
+.\Release\fopengzipped.obj
+.\Release\sm_diagram.obj
+\psreader_dist\Release\PSlib.lib
+\psreader_dist\Release\SMlib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP42E.tmp"
+<h3>Output Window</h3>
+Compiling...
+sm_diagram.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP430.bat" with contents
+[
+@echo off
+copy Release\sm_diagram.exe sm_diagram.exe
+]
+Creating command line "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP430.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+sm_diagram.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

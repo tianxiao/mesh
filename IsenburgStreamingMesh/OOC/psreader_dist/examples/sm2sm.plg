@@ -1,0 +1,144 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SMlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP41F.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "inc" /I "stl" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/SMlib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\psreader_dist\src\dynamicqueue.cpp"
+"C:\psreader_dist\src\dynamicvector.cpp"
+"C:\psreader_dist\src\floatcompressor.cpp"
+"C:\psreader_dist\src\integercompressor.cpp"
+"C:\psreader_dist\src\integercompressor_new.cpp"
+"C:\psreader_dist\src\ply.c"
+"C:\psreader_dist\src\rangedecoder.cpp"
+"C:\psreader_dist\src\rangeencoder.cpp"
+"C:\psreader_dist\src\rangemodel.cpp"
+"C:\psreader_dist\src\smconverter.cpp"
+"C:\psreader_dist\src\smreader_ply.cpp"
+"C:\psreader_dist\src\smreader_sma.cpp"
+"C:\psreader_dist\src\smreader_smb.cpp"
+"C:\psreader_dist\src\smreader_smc.cpp"
+"C:\psreader_dist\src\smreader_smc_old.cpp"
+"C:\psreader_dist\src\smreader_smd.cpp"
+"C:\psreader_dist\src\smreadpostascompactpre.cpp"
+"C:\psreader_dist\src\smreadpreascompactpre.cpp"
+"C:\psreader_dist\src\smwritebuffered.cpp"
+"C:\psreader_dist\src\smwriter_off.cpp"
+"C:\psreader_dist\src\smwriter_sma.cpp"
+"C:\psreader_dist\src\smwriter_smb.cpp"
+"C:\psreader_dist\src\smwriter_smc.cpp"
+"C:\psreader_dist\src\smwriter_smc_old.cpp"
+"C:\psreader_dist\src\smwriter_smd.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP41F.tmp" 
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP420.tmp" with contents
+[
+/nologo /out:"Release\SMlib.lib" 
+.\Release\dynamicqueue.obj
+.\Release\dynamicvector.obj
+.\Release\floatcompressor.obj
+.\Release\integercompressor.obj
+.\Release\integercompressor_new.obj
+.\Release\ply.obj
+.\Release\rangedecoder.obj
+.\Release\rangeencoder.obj
+.\Release\rangemodel.obj
+.\Release\smconverter.obj
+.\Release\smreader_ply.obj
+.\Release\smreader_sma.obj
+.\Release\smreader_smb.obj
+.\Release\smreader_smc.obj
+.\Release\smreader_smc_old.obj
+.\Release\smreader_smd.obj
+.\Release\smreadpostascompactpre.obj
+.\Release\smreadpreascompactpre.obj
+.\Release\smwritebuffered.obj
+.\Release\smwriter_off.obj
+.\Release\smwriter_sma.obj
+.\Release\smwriter_smb.obj
+.\Release\smwriter_smc.obj
+.\Release\smwriter_smc_old.obj
+.\Release\smwriter_smd.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP420.tmp"
+<h3>Output Window</h3>
+Compiling...
+dynamicqueue.cpp
+dynamicvector.cpp
+floatcompressor.cpp
+integercompressor.cpp
+integercompressor_new.cpp
+ply.c
+rangedecoder.cpp
+rangeencoder.cpp
+rangemodel.cpp
+smconverter.cpp
+smreader_ply.cpp
+smreader_sma.cpp
+smreader_smb.cpp
+smreader_smc.cpp
+smreader_smc_old.cpp
+smreader_smd.cpp
+smreadpostascompactpre.cpp
+smreadpreascompactpre.cpp
+smwritebuffered.cpp
+smwriter_off.cpp
+smwriter_sma.cpp
+smwriter_smb.cpp
+smwriter_smc.cpp
+smwriter_smc_old.cpp
+smwriter_smd.cpp
+Creating library...
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP421.bat" with contents
+[
+@echo off
+copy Release\SMlib.lib lib\SMlib.lib
+]
+Creating command line "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP421.bat"
+
+        1 file(s) copied.
+<h3>
+--------------------Configuration: sm2sm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP422.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "..\inc" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /Fp"Release/sm2sm.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\psreader_dist\examples\src\fopengzipped.cpp"
+"C:\psreader_dist\examples\src\sm2sm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP422.tmp" 
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP423.tmp" with contents
+[
+../lib/SMlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/sm2sm.pdb" /machine:I386 /out:"Release/sm2sm.exe" 
+.\Release\fopengzipped.obj
+.\Release\sm2sm.obj
+\psreader_dist\Release\SMlib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP423.tmp"
+<h3>Output Window</h3>
+Compiling...
+fopengzipped.cpp
+sm2sm.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP425.bat" with contents
+[
+@echo off
+copy Release\sm2sm.exe sm2sm.exe
+]
+Creating command line "C:\DOCUME~1\isenburg\LOCALS~1\Temp\RSP425.bat"
+
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+sm2sm.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
